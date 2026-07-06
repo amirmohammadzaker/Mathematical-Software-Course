@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025/Debian) (preloaded format=xelatex 2026.6.28)  5 JUL 2026 20:49
+This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2025/Debian) (preloaded format=xelatex 2026.6.28)  6 JUL 2026 14:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -243,6 +243,130 @@ Package caption Info: Standard document class detected.
 \c@continuedfloat=\count313
 Package caption Info: listings package is loaded.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count314
+)
+(/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count315
+)
+(/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
+)
+\@linkdim=\dimen180
+\Hy@linkcounter=\count316
+\Hy@pagecounter=\count317
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count318
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 4195.
+Package hyperref Info: Link nesting OFF on input line 4200.
+Package hyperref Info: Hyper index ON on input line 4203.
+Package hyperref Info: Plain pages OFF on input line 4210.
+Package hyperref Info: Backreferencing OFF on input line 4215.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4462.
+\c@Hy@tempcnt=\count319
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4801.
+\XeTeXLinkMargin=\dimen181
+
+(/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count320
+\Field@Width=\dimen182
+\Fld@charsize=\dimen183
+Package hyperref Info: Hyper figures OFF on input line 6078.
+Package hyperref Info: Link nesting OFF on input line 6083.
+Package hyperref Info: Hyper index ON on input line 6086.
+Package hyperref Info: backreferencing OFF on input line 6093.
+Package hyperref Info: Link coloring OFF on input line 6098.
+Package hyperref Info: Link coloring with OCG OFF on input line 6103.
+Package hyperref Info: PDF/A mode OFF on input line 6108.
+\Hy@abspage=\count321
+\c@Item=\count322
+\c@Hfootnote=\count323
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2025-07-12 v7.01o Hyperref driver for XeTeX
+\pdfm@box=\box57
+\c@Hy@AnnotLevel=\count324
+\HyField@AnnotCount=\count325
+\Fld@listcount=\count326
+\c@bookmark@seq@number=\count327
+
+(/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
+)
+\Hy@SectionHShift=\skip54
+)
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2025/11/14 1.11b listings language file
 )
@@ -279,9 +403,9 @@ Package: expl3 2026-01-19 L3 programming layer (loader)
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2025-10-09 L3 backend support: XeTeX
-\g__graphics_track_int=\count314
-\g__pdfannot_backend_int=\count315
-\g__pdfannot_backend_link_int=\count316
+\g__graphics_track_int=\count328
+\g__pdfannot_backend_int=\count329
+\g__pdfannot_backend_link_int=\count330
 ))
 Package: xparse 2025-10-09 L3 Experimental document command parser
 )
@@ -290,20 +414,20 @@ Package: fontspec 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
 Package: fontspec-xetex 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTe
 X
-\l__fontspec_script_int=\count317
-\l__fontspec_language_int=\count318
-\l__fontspec_strnum_int=\count319
-\l__fontspec_tmp_int=\count320
-\l__fontspec_tmpa_int=\count321
-\l__fontspec_tmpb_int=\count322
-\l__fontspec_tmpc_int=\count323
-\l__fontspec_em_int=\count324
-\l__fontspec_emdef_int=\count325
-\l__fontspec_strong_int=\count326
-\l__fontspec_strongdef_int=\count327
-\l__fontspec_tmpa_dim=\dimen180
-\l__fontspec_tmpb_dim=\dimen181
-\l__fontspec_tmpc_dim=\dimen182
+\l__fontspec_script_int=\count331
+\l__fontspec_language_int=\count332
+\l__fontspec_strnum_int=\count333
+\l__fontspec_tmp_int=\count334
+\l__fontspec_tmpa_int=\count335
+\l__fontspec_tmpb_int=\count336
+\l__fontspec_tmpc_int=\count337
+\l__fontspec_em_int=\count338
+\l__fontspec_emdef_int=\count339
+\l__fontspec_strong_int=\count340
+\l__fontspec_strongdef_int=\count341
+\l__fontspec_tmpa_dim=\dimen184
+\l__fontspec_tmpb_dim=\dimen185
+\l__fontspec_tmpc_dim=\dimen186
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
@@ -311,43 +435,43 @@ Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 (/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
 (/usr/share/texlive/texmf-dist/tex/latex/xepersian/unicode-persiancal.sty
 Package: unicode-persiancal 2025/01/01 v0.3 Unicode Persian calendar
-\XePersian@i=\count328
-\XePersian@y=\count329
-\XePersian@m=\count330
-\XePersian@d=\count331
-\XePersian@latini=\count332
-\XePersian@persiani=\count333
-\XePersian@latinii=\count334
-\XePersian@persianii=\count335
-\XePersian@latiniii=\count336
-\XePersian@persianiii=\count337
-\XePersian@latiniv=\count338
-\XePersian@persianiv=\count339
-\XePersian@latinv=\count340
-\XePersian@persianv=\count341
-\XePersian@latinvi=\count342
-\XePersian@persianvi=\count343
-\XePersian@latinvii=\count344
-\XePersian@persianvii=\count345
-\XePersian@latinviii=\count346
-\XePersian@persianviii=\count347
-\XePersian@latinix=\count348
-\XePersian@persianix=\count349
-\XePersian@latinx=\count350
-\XePersian@persianx=\count351
-\XePersian@latinxi=\count352
-\XePersian@persianxi=\count353
-\XePersian@latinxii=\count354
-\XePersian@persianxii=\count355
-\XePersian@persianxiii=\count356
-\XePersian@temp=\count357
-\XePersian@temptwo=\count358
-\XePersian@tempthree=\count359
-\XePersian@yModHundred=\count360
-\XePersian@thirtytwo=\count361
-\XePersian@dn=\count362
-\XePersian@sn=\count363
-\XePersian@mminusone=\count364
+\XePersian@i=\count342
+\XePersian@y=\count343
+\XePersian@m=\count344
+\XePersian@d=\count345
+\XePersian@latini=\count346
+\XePersian@persiani=\count347
+\XePersian@latinii=\count348
+\XePersian@persianii=\count349
+\XePersian@latiniii=\count350
+\XePersian@persianiii=\count351
+\XePersian@latiniv=\count352
+\XePersian@persianiv=\count353
+\XePersian@latinv=\count354
+\XePersian@persianv=\count355
+\XePersian@latinvi=\count356
+\XePersian@persianvi=\count357
+\XePersian@latinvii=\count358
+\XePersian@persianvii=\count359
+\XePersian@latinviii=\count360
+\XePersian@persianviii=\count361
+\XePersian@latinix=\count362
+\XePersian@persianix=\count363
+\XePersian@latinx=\count364
+\XePersian@persianx=\count365
+\XePersian@latinxi=\count366
+\XePersian@persianxi=\count367
+\XePersian@latinxii=\count368
+\XePersian@persianxii=\count369
+\XePersian@persianxiii=\count370
+\XePersian@temp=\count371
+\XePersian@temptwo=\count372
+\XePersian@tempthree=\count373
+\XePersian@yModHundred=\count374
+\XePersian@thirtytwo=\count375
+\XePersian@dn=\count376
+\XePersian@sn=\count377
+\XePersian@mminusone=\count378
 )
 (/usr/share/texlive/texmf-dist/tex/latex/xepersian/unicode-persianmath.sty
 Package: unicode-persianmath 2026/01/01 v1.2.6 Unicode Persian math
@@ -385,17 +509,17 @@ plain TeX and LaTeX
 Package: biditools 2025/12/19 v2.9 Programming tools for bidi package
 \@bidi@envbody=\toks33
 \@bidi@emptytoks=\toks34
-\bidi@poscount=\count365
-\bidi@tempcountb=\count366
+\bidi@poscount=\count379
+\bidi@tempcountb=\count380
 \bidi@temptoksa=\toks35
 \bidi@temptoksb=\toks36
-\bidi@dummies=\count367
+\bidi@dummies=\count381
 \bidi@are@these@correct=\toks37
 \bidi@toks@lista=\toks38
 \bidi@toks@listb=\toks39
-\bidi@stack@length=\count368
+\bidi@stack@length=\count382
 \bidi@empty@stack=\toks40
-\bidi@looprepeat@depth=\count369
+\bidi@looprepeat@depth=\count383
 )
 (/usr/share/texlive/texmf-dist/tex/latex/zref/zref-abspage.sty
 Package: zref-abspage 2025-06-08 v2.36 Module abspage for zref (HO)
@@ -403,25 +527,6 @@ Package: zref-abspage 2025-06-08 v2.36 Module abspage for zref (HO)
 (/usr/share/texlive/texmf-dist/tex/latex/zref/zref-base.sty
 Package: zref-base 2025-06-08 v2.36 Module base for zref (HO)
 
-(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
-Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
-Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
-)
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode not found.
-)
 (/usr/share/texlive/texmf-dist/tex/generic/etexcmds/etexcmds.sty
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
@@ -432,12 +537,12 @@ Package zref Info: New property list: main on input line 767.
 Package zref Info: New property: default on input line 768.
 Package zref Info: New property: page on input line 769.
 )
-\c@abspage=\count370
+\c@abspage=\count384
 Package zref Info: New property: abspage on input line 67.
 )
 \@bidi@copyins@=\insert252
-\bidi@typesethour=\count371
-\bidi@typesetminute=\count372
+\bidi@typesethour=\count385
+\bidi@typesetminute=\count386
 
 (/usr/share/texlive/texmf-dist/tex/latex/bidi/latex-xetex-bidi.def
 File: latex-xetex-bidi.def 2025/12/19 v1.5.6 bidi adaptations for `latex.ltx' f
@@ -447,12 +552,12 @@ LaTeX Info: Redefining \centerline on input line 317.
 LaTeX Info: Redefining \leftline on input line 326.
 LaTeX Info: Redefining \rightline on input line 327.
 LaTeX Info: Redefining \underline on input line 335.
-\bidi@column@check@number=\count373
+\bidi@column@check@number=\count387
 
 (/usr/share/texlive/texmf-dist/tex/latex/bidi/footnote-xetex-bidi.def
 File: footnote-xetex-bidi.def 2025/09/30 v1.6 bidi footnote macros for XeTeX en
 gine
-\c@footdir@label=\count374
+\c@footdir@label=\count388
 \footdir@toks=\toks42
 )
 (/usr/share/texlive/texmf-dist/tex/latex/bidi/article-xetex-bidi.def
@@ -488,6 +593,10 @@ kage for XeTeX engine
 File: graphicx-xetex-bidi.def 2017/06/17 v0.5 bidi adaptations for graphicx pac
 kage for XeTeX engine
 )
+(/usr/share/texlive/texmf-dist/tex/latex/bidi/hyperref-xetex-bidi.def
+File: hyperref-xetex-bidi.def 2025/12/06 v1.5 bidi adaptations for hyperref pac
+kage for XeTeX engine
+)
 (/usr/share/texlive/texmf-dist/tex/latex/bidi/listings-xetex-bidi.def
 File: listings-xetex-bidi.def 2025/01/03 v1.6 bidi adaptations for listings pac
 kage for XeTeX engine
@@ -498,13 +607,13 @@ File: xcolor-xetex-bidi.def 2022/06/13 v0.3 bidi adaptations for xcolor package
 LaTeX Info: Redefining \color on input line 49.
 LaTeX Info: Redefining \bidicolor on input line 92.
 ))
-\bidi@digits=\count375
+\bidi@digits=\count389
 \bidi@digits@charclass=\XeTeXcharclass1
 \bidi@sepmark@charclass=\XeTeXcharclass2
 )
-\xepersian@tcl=\count376
-\xepersian@ilg=\dimen183
-\xepersian@strutilg=\dimen184
+\xepersian@tcl=\count390
+\xepersian@ilg=\dimen187
+\xepersian@strutilg=\dimen188
 
 (/usr/share/texlive/texmf-dist/tex/latex/xepersian/footnote-xetex-bidi-xetex-xe
 persian.def
@@ -515,9 +624,16 @@ ions for footnotes for XeTeX engine
 File: article-xetex-xepersian.def 2010/07/25 v0.2 xepersian adaptations for sta
 ndard article class for XeTeX engine
 )
+(/usr/share/texlive/texmf-dist/tex/latex/xepersian/hyperref-xetex-xepersian.def
+File: hyperref-xetex-xepersian.def 2022/10/30 v0.8 xepersian adaptations for hy
+perref package for XeTeX engine
+)
 (/usr/share/texlive/texmf-dist/tex/latex/xepersian/listings-xetex-xepersian.def
 File: listings-xetex-xepersian.def 2014/07/17 v0.3 xepersian adaptations for li
 stings package for XeTeX engine
+) (/usr/share/texlive/texmf-dist/tex/latex/xepersian/url-xetex-xepersian.def
+File: url-xetex-xepersian.def 2025/09/03 v0.2 xepersian adaptations for url pac
+kage for XeTeX engine
 )
 \xepersian@toks=\toks43
 )
@@ -615,26 +731,31 @@ Package fontspec Info:
 (fontspec)             - 'bold italic' (b/it) with NFSS spec.: <->"Times New
 (fontspec)             Roman/BI/OT:language=dflt;mapping=tex-text;"
 
-LaTeX Info: Redefining \latinfont on input line 36.
- (./AUTThesis.aux)
+LaTeX Info: Redefining \latinfont on input line 37.
+
+(./AUTThesis.aux)
 \openout1 = `AUTThesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 38.
+LaTeX Font Info:    ... okay on input line 38.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -670,15 +791,21 @@ LaTeX Font Info:    ... okay on input line 37.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count377
+\c@lstlisting=\count391
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-[1
+Package hyperref Info: Link coloring OFF on input line 38.
+(./AUTThesis.out) (./AUTThesis.out)
+\@outlinefile=\write3
+\openout3 = `AUTThesis.out'.
+
+ [1
 
 ]
 
 LaTeX Font Warning: Font shape `TU/BNazanin(0)/b/n' undefined
-(Font)              using `TU/BNazanin(0)/m/n' instead on input line 49.
+(Font)              using `TU/BNazanin(0)/m/n' instead on input line 50.
 
 (./AUTThesis.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
@@ -690,8 +817,8 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
-\tf@toc=\write3
-\openout3 = `AUTThesis.toc'.
+\tf@toc=\write4
+\openout4 = `AUTThesis.toc'.
 
  [1] (./section1.tex
 Overfull \hbox (58.65176pt too wide) in paragraph at lines 10--11
@@ -753,23 +880,26 @@ Missing character: There is no • (U+2022) in font B Nazanin/OT:language=dflt;s
 ript=arab;mapping=persian-tex-text;!
 ) [10] (./section3.tex [11
 
-] [12]) [13] (./AUTThesis.aux)
+] [12]) [13] (./appendix1.tex) [14
+
+] (./AUTThesis.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
 
-
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+Package rerunfilecheck Info: File `AUTThesis.out' has not changed.
+(rerunfilecheck)             Checksum: 4BF4FA9BD7C2E12F7DAE7B98238F3F2A;8286.
  ) 
 Here is how much of TeX's memory you used:
- 11927 strings out of 468173
- 273024 string characters out of 5435520
- 1038349 words of memory out of 5000000
- 40426 multiletter control sequences out of 15000+600000
- 634369 words of font info for 104 fonts, out of 8000000 for 9000
+ 18502 strings out of 468173
+ 373164 string characters out of 5435520
+ 1164303 words of memory out of 5000000
+ 46914 multiletter control sequences out of 15000+600000
+ 634729 words of font info for 105 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 88i,8n,93p,1209b,1620s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 88i,8n,93p,1209b,1840s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on AUTThesis.pdf (14 pages).
+Output written on AUTThesis.pdf (15 pages).
