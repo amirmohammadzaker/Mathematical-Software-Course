@@ -1,0 +1,58 @@
+\documentclass[12pt]{article}
+\usepackage{silence}
+\WarningFilter{xepersian}{Font}
+\WarningFilter{fontspec}{font-not-found}
+
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{caption}
+
+\geometry{a4paper, margin=1in}
+
+\lstset{
+ language=Python,
+ basicstyle=\ttfamily\small,
+ keywordstyle=\color{blue},
+ commentstyle=\color{green!50!black},
+ stringstyle=\color{red},
+ numbers=left,
+ numberstyle=\tiny\color{gray},
+ stepnumber=1,
+ numbersep=8pt,
+ backgroundcolor=\color{gray!5},
+ showstringspaces=false,
+ tabsize=4,
+ frame=single,
+ breaklines=true
+}
+
+\usepackage{xepersian}
+\settextfont{B Nazanin}
+\setlatintextfont{Times New Roman}
+
+\begin{document}
+
+\begin{titlepage}
+\centering
+\vspace*{2cm}
+{\Large گزارش پروژه نرم‌افزار ریاضی\par}
+\vspace{1cm}
+{\large امیرمحمد ذاکر\par}
+\vfill
+{\large \today\par}
+\end{titlepage}
+
+\tableofcontents
+\clearpage
+
+\input{section1}
+\clearpage
+\input{section2}
+\clearpage
+\input{section3}
+
+\end{document}

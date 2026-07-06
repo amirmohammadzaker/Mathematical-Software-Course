@@ -1,0 +1,25 @@
+\contentsline {section}{\numberline {1}درونیابی لاگرانژ و اسپلاین مکعبی}{2}{}%
+\contentsline {subsection}{\numberline {1.1}مراحل و نحوه پیاده‌سازی الگوریتم‌ها}{2}{}%
+\contentsline {subsection}{\numberline {1.2}کد پایتون پیاده‌سازی شده}{2}{}%
+\contentsline {subsection}{\numberline {1.3}خروجی دقیق برنامه در محیط ترمینال}{3}{}%
+\contentsline {subsection}{\numberline {1.4}ضابطه چندجمله‌ای درونیاب لاگرانژ}{4}{}%
+\contentsline {subsection}{\numberline {1.5}ضابطه تکه‌ای درونیاب اسپلاین مکعبی}{4}{}%
+\contentsline {subsection}{\numberline {1.6}نمودار مقایسه‌ای و تحلیل کامل رفتار توابع}{4}{}%
+\contentsline {section}{\numberline {2}تحلیل آماری و تصویرسازی داده‌های زمان اجرای الگوریتم‌ها}{6}{}%
+\contentsline {subsection}{\numberline {2.1}مراحل و نحوه پیاده‌سازی الگوریتم‌ها}{6}{}%
+\contentsline {subsection}{\numberline {2.2}کد پایتون پیاده‌سازی شده}{6}{}%
+\contentsline {subsection}{\numberline {2.3}خروجی دقیق برنامه در محیط ترمینال}{7}{}%
+\contentsline {subsection}{\numberline {2.4}تحلیل آماری میانگین زمان اجرا}{8}{}%
+\contentsline {subsection}{\numberline {2.5}نمودارهای ترسیم شده و تحلیل جامع رفتار الگوریتم‌ها}{8}{}%
+\contentsline {subsubsection}{\numberline {2.5.1}تحلیل نمودار خطی و بررسی روند رشد}{10}{}%
+\contentsline {subsubsection}{\numberline {2.5.2}تحلیل نمودار میله‌ای و مقایسه نقطه‌ای عملکرد}{10}{}%
+\contentsline {subsubsection}{\numberline {2.5.3}تحلیل نمودار جعبه‌ای و بررسی ثبات توزیع}{10}{}%
+\contentsline {section}{\numberline {3}انتگرال‌گیری عددی به روش‌های ذوزنقه‌ای، سیمپسون و کوادراتور گوسی}{11}{}%
+\contentsline {subsection}{\numberline {3.1}مراحل و نحوه پیاده‌سازی الگوریتم‌ها}{11}{}%
+\contentsline {subsection}{\numberline {3.2}کد پایتون پیاده‌سازی شده}{11}{}%
+\contentsline {subsection}{\numberline {3.3}خروجی دقیق برنامه در محیط ترمینال}{12}{}%
+\contentsline {subsection}{\numberline {3.4}تحلیل و مقایسه جامع نتایج عددی روش‌ها}{12}{}%
+\contentsline {subsubsection}{\numberline {3.4.1}روش ذوزنقه‌ای}{12}{}%
+\contentsline {subsubsection}{\numberline {3.4.2}روش سیمپسون}{13}{}%
+\contentsline {subsubsection}{\numberline {3.4.3}روش کوادراتور گوسی}{13}{}%
+\contentsline {subsubsection}{\numberline {3.4.4}نتیجه‌گیری مقایسه‌ای}{13}{}%
