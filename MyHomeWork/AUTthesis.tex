@@ -1,0 +1,37 @@
+\documentclass[oneside,msc,12pt]{AUTthesis}
+
+\input{commands}
+
+\begin{document}
+	\baselineskip=.75cm
+	\linespread{1.75}
+	\input{fa_title}
+	
+	% بخش‌های اضافی طبق دستورالعمل با علامت درصد غیرفعال (کامنت) شده‌اند
+	%\input{Chant}
+	%\input{acknowledgement}
+	
+	\pagenumbering{alph}
+	\input{TOC-TOF-LOT}
+	
+	\pagenumbering{arabic}
+	\pagestyle{style1}
+	
+	\include{chapter1}
+	\include{chapter2}
+	\include{chapter3}
+	\include{chapter4}
+	
+	\chapterfont{\vspace*{-2em}\centering\LARGE}%
+	
+	\appendix
+	\bibliographystyle{unsrt-fa}
+	\bibliography{references}
+	
+	\parindent=0pt
+	\pagestyle{style7}
+	\printindex
+	\pagestyle{style7}
+	
+	\input{en_title}
+\end{document}

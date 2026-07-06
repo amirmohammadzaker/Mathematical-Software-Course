@@ -1,0 +1,36 @@
+\hypertarget{target:chap1}{}\chapter{مقدمه و مفاهیم پایه}\label{chap:intro}
+انتگرال یکی از مفاهیم اساسی در حساب دیفرانسیل\footnote{\lr{Differential Calculus}} و انتگرال است که نقش مهمی در تحلیل و مدل‌سازی مسائل مختلف ریاضی و مهندسی ایفا می‌کند. این مفهوم به‌طور گسترده برای محاسبه کمیت‌هایی مانند مساحت، حجم، طول منحنی و حتی در مسائل پیچیده‌تری مانند فیزیک و اقتصاد مورد استفاده قرار می‌گیرد. به‌طور کلی، انتگرال را می‌توان به‌عنوان فرآیند معکوس مشتق‌گیری در نظر گرفت که امکان بازسازی تابع از روی نرخ تغییرات آن را فراهم می‌کند.
+
+در بسیاری از مسائل کاربردی، نیاز به محاسبه مساحت ناحیه‌ای زیر یک منحنی یا بین دو تابع وجود دارد. این مساحت‌ها معمولاً با استفاده از انتگرال معین محاسبه می‌شوند. اگر تابع $f(x)$ پیوسته بر روی یک بازه مشخص تعریف شده باشد، می‌توان مساحت زیر نمودار آن را با استفاده از انتگرال معین به‌دست آورد. این موضوع یکی از مهم‌ترین کاربردهای انتگرال در ریاضیات کاربردی محسوب می‌شود.
+
+علاوه بر محاسبه مساحت، انتگرال در تعیین حجم اجسام سه‌بعدی نیز کاربرد گسترده‌ای دارد. به‌ویژه در حالتی که یک ناحیه حول یک محور دوران داده می‌شود، می‌توان با استفاده از روش‌هایی مانند روش دیسک\footnote{\lr{Disk Method}} یا پوسته استوانه‌ای، حجم جسم حاصل را محاسبه کرد. این کاربردها در رشته‌های مختلف مهندسی، اهمیت زیادی دارند.
+
+هدف از این گزارش بررسی کاربردهای مهم انتگرال در محاسبه مساحت و حجم اجسام است. در این راستا، ابتدا مفاهیم پایه معرفی شده و سپس روش‌های مختلف محاسبه با استفاده از روابط ریاضی مورد بررسی قرار می‌گیرند.
+
+\section{ساختار کلی پروژه}
+در شکل \ref{fig:project_graph} ساختار کلی فصول این پروژه و ارتباط بین آن‌ها ترسیم شده است. این گراف تعاملی بوده و با کلیک روی هر نود، به فصل مربوطه منتقل خواهید شد.
+
+\begin{figure}[htbp]
+	\centering
+	\begin{tikzpicture}[node distance=2.5cm, auto]
+		\tikzset{
+			rootnode/.style={draw, rectangle, rounded corners=5pt, minimum width=3.5cm, minimum height=1cm, text centered, draw=purple!70, fill=purple!10, thick},
+			chapnode/.style={draw, rectangle, rounded corners=3pt, minimum width=3.2cm, minimum height=0.9cm, text centered, draw=blue!70, fill=blue!5, thick},
+			arrow/.style={thick,->,>=stealth}
+		}
+		
+		\node (root) [rootnode] {کاربرد انتگرال};
+		
+		\node (chap1) [chapnode, above left=1.2cm and 1cm of root] {\hyperlink{target:chap1}{فصل ۱: مقدمه}};
+		\node (chap2) [chapnode, below left=1.2cm and 1cm of root] {\hyperlink{target:chap2}{فصل ۲: مرور ادبیات}};
+		\node (chap3) [chapnode, above right=1.2cm and 1cm of root] {\hyperlink{target:chap3}{فصل ۳: محاسبه مساحت}};
+		\node (chap4) [chapnode, below right=1.2cm and 1cm of root] {\hyperlink{target:chap4}{فصل ۴: محاسبه حجم}};
+		
+		\draw [arrow] (root) -- (chap1);
+		\draw [arrow] (root) -- (chap2);
+		\draw [arrow] (root) -- (chap3);
+		\draw [arrow] (root) -- (chap4);
+	\end{tikzpicture}
+	\caption{گراف تعاملی ارتباط فصول و ساختار پروژه}
+	\label{fig:project_graph}
+\end{figure}

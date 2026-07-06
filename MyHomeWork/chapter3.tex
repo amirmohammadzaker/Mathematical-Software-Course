@@ -1,0 +1,96 @@
+\hypertarget{target:chap3}{}\chapter{محاسبه مساحت با استفاده از انتگرال}\label{chap:area}
+با استفاده از انتگرال معین می‌توان مساحت دقیق بین یک تابع و محور مختصات را در یک بازه مشخص به‌دست آورد.
+
+\section{مساحت زیر نمودار توابع}
+اگر تابع $f(x)$ در بازه $[a,b]$ پیوسته و مثبت باشد، مساحت ناحیه زیر نمودار آن از رابطه \eqref{eq:area_def} به‌دست می‌آید:
+\begin{equation}
+	A = \int_{a}^{b} f(x) \, dx.
+	\label{eq:area_def}
+\end{equation}
+
+به‌عنوان مثال، اگر تابع $y=x^2$ را در بازه $[0,2]$ در نظر بگیریم، مساحت ناحیه با جایگذاری ضوابط در رابطه \eqref{eq:area_def}، به صورت فرآیند محاسباتی یکپارچه در رابطه \eqref{eq:area_calc} به‌دست می‌آید:
+\begin{equation}
+	A = \int_{0}^{2} x^2 \, dx = \left[ \frac{x^3}{3} \right]_0^2 = \frac{8}{3}.
+	\label{eq:area_calc}
+\end{equation}
+
+همان‌طور که در رابطه \eqref{eq:area_calc} مشاهده می‌شود، حاصل این انتگرال‌گیری به یک مقدار عددی دقیق ختم شده است که مساحت زیر منحنی را نشان می‌دهد.
+
+\section{الگوریتم و فلوچارت محاسباتی مجموع ریمان}
+برای تقریب عددی مساحت زیر منحنی، الگوریتم \ref{alg:riemann_sum} فرآیند مجموع ریمان را پیاده‌سازی می‌کند. این الگوریتم در واقع ساختار پیوسته رابطه \eqref{eq:area_def} را به یک فرآیند گسسته تکرارپذیر تبدیل خواهد کرد.
+
+\begin{latin}
+	\begin{algorithm}
+		\caption{Left Riemann Sum Approximation}
+		\label{alg:riemann_sum}
+		\begin{algorithmic}[1]
+			\REQUIRE Function $f(x)$, interval $[a, b]$, number of subintervals $n$
+			\ENSURE Approximated area $A$
+			\STATE $\Delta x \gets \frac{b - a}{n}$
+			\STATE $A \gets 0$
+			\FOR{$i = 0$ \TO $n-1$}
+			\STATE $x \gets a + i \cdot \Delta x$
+			\STATE $A \gets A + f(x) \cdot \Delta x$
+			\ENDFOR
+			\RETURN $A$
+		\end{algorithmic}
+	\end{algorithm}
+\end{latin}
+
+فلوچارت این فرآیند با استفاده از ابزار تیکز\footnote{\lr{TikZ}} در شکل \ref{fig:flowchart_area} به تصویر کشیده شده است.
+
+\begin{figure}[htbp]
+	\centering
+	\begin{tikzpicture}[node distance=1.5cm, auto]
+		\tikzset{
+			startstop/.style={draw, rectangle, rounded corners, minimum width=3cm, minimum height=0.8cm, text centered, draw=blue!70, fill=blue!10, thick},
+			io/.style={draw, trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=3cm, minimum height=0.8cm, text centered, draw=orange!70, fill=orange!10, thick},
+			process/.style={draw, rectangle, minimum width=3.5cm, minimum height=0.8cm, text centered, draw=green!70, fill=green!10, thick},
+			decision/.style={draw, diamond, aspect=1.8, minimum width=3cm, minimum height=0.8cm, text centered, draw=red!70, fill=red!10, thick, inner sep=0pt},
+			arrow/.style={thick,->,>=stealth}
+		}
+		
+		\node (start) [startstop] {شروع};
+		\node (input) [io, below=0.6cm of start] {ورودی: $a, b, n, f(x)$};
+		\node (init) [process, below=0.6cm of input] {$\Delta x = \frac{b-a}{n}$ , $A=0$ , $i=0$};
+		\node (cond) [decision, below=1cm of init] {$i < n$؟};
+		\node (calc) [process, left=1.5cm of cond] {$A = A + f(a + i\Delta x)\Delta x$};
+		\node (incr) [process, above=1cm of calc] {$i = i + 1$};
+		\node (stop) [startstop, below=1cm of cond] {خروجی $A$ و پایان};
+		
+		\draw [arrow] (start) -- (input);
+		\draw [arrow] (input) -- (init);
+		\draw [arrow] (init) -- (cond);
+		\draw [arrow] (cond) -- node[anchor=south] {بله} (calc);
+		\draw [arrow] (calc) -- (incr);
+		
+		% تغییر اصلی اینجاست: اتصال مستقیم و مورب بین دو گره
+		\draw [arrow] (incr.south east) -- (cond.north west);
+		
+		\draw [arrow] (cond) -- node[anchor=east] {خیر} (stop);
+	\end{tikzpicture}
+	\caption{فلوچارت مراحل اجرای الگوریتم مجموع ریمان برای مساحت}
+	\label{fig:flowchart_area}
+\end{figure}
+
+در جدول \ref{Table1}، نمادهای پرکاربرد ریاضی استفاده شده در محاسبات با ویژگی‌های خواسته شده معرفی گردیده‌اند.
+
+\begin{table}[ht]
+	\centering
+	\caption{نمادهای استفاده شده در محاسبات انتگرالی}
+	\label{Table1}
+	\renewcommand{\arraystretch}{1.5}
+	\setlength{\tabcolsep}{10pt}
+	\rowcolors{2}{blue!10}{white}
+	\begin{tabular}{c!{\color{blue}\vrule width 1.5pt}c}
+		\hline 
+		نماد & توضیح \\  
+		\noalign{\hrule height 1.5pt}
+		$f(x)$ & تابع مورد نظر \\
+		$a, b$ & کران‌های انتگرال \\
+		$A$ & مساحت \\
+		$V$ & حجم \\
+		$dx$ & عنصر دیفرانسیلی \\
+		\hline
+	\end{tabular}
+\end{table}
